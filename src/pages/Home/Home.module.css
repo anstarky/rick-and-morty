@@ -1,0 +1,18 @@
+.section_wrap {
+	/* display: flex;
+	justify-content: space-between;
+	-moz-box-align: center;
+	align-items: center; */
+	padding: 4.5rem 0px;
+	background: rgb(36, 40, 47) none repeat scroll 0% 0%;
+	min-height: calc(-60px + 50vh);
+}
+.home_img {
+	float: left;
+	margin: 50px;
+}
+.home_text {
+	margin: 0 50px;
+	color: var(--light-grey);
+	font-size: 24px;
+}

@@ -1,0 +1,87 @@
+.section_wrap {
+	padding: 4.5rem 0px;
+	background: rgb(36, 40, 47) none repeat scroll 0% 0%;
+	min-height: calc(-60px + 50vh);
+	margin: 0 auto;
+	text-align: center;
+}
+
+.section_title {
+	text-align: center;
+	font-size: 3rem;
+	color: var(--light-grey);
+}
+
+.episodes_wrap {
+	display: flex;
+	-moz-box-pack: center;
+	justify-content: center;
+	-moz-box-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 1920px;
+}
+.episodes_card_li {
+	list-style: none;
+}
+
+.episode_card {
+	width: 400px;
+	height: 220px;
+	display: flex;
+	overflow: hidden;
+	background: rgb(60, 62, 68) none repeat scroll 0% 0%;
+	border-radius: 0.5rem;
+	margin: 1rem 2.75rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.card_desc {
+	display: flex;
+	flex-direction: column;
+	flex: 3 1 0%;
+	position: relative;
+	padding: 0 1rem;
+	color: var(--light-grey);
+	text-align: left;
+	margin-left: 10px;
+}
+
+.card_title {
+	margin: 1rem 0;
+	font-size: 32px;
+	font-weight: 800;
+	color: var(--orange);
+}
+
+.card_about {
+	font-size: 18px;
+}
+
+.card_about p {
+	margin: 10px 0;
+}
+
+.card_tag {
+	color: var(--middle-grey);
+}
+
+.input_wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_desc {
+	color: #fff;
+	padding-right: 30px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.error {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 700;
+}

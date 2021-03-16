@@ -1,0 +1,22 @@
+.page_footer {
+	display: flex;
+	-moz-box-pack: center;
+	justify-content: center;
+	-moz-box-align: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	position: relative;
+	background: var(--more-dark-grey) none repeat scroll 0% 0%;
+	color: rgb(158, 158, 158);
+	padding: 2.5rem 0px;
+	min-height: 60px;
+	width: 100%;
+}
+
+.copy_wrap {
+	padding-top: 30px;
+}
+
+.copy_dev_link {
+	color: var(--middle-grey);
+}

@@ -1,0 +1,33 @@
+.section_title_wrap {
+	display: flex;
+	-moz-box-pack: center;
+	justify-content: center;
+	-moz-box-align: center;
+	align-items: center;
+	flex-direction: column;
+	height: calc(-60px + 50vh);
+	text-align: center;
+	position: relative;
+	margin: 0 50px;
+}
+
+.title_head {
+	margin: 0px;
+	color: rgb(32, 35, 41);
+	border: medium none;
+	font-weight: 900;
+	z-index: 1;
+	font-size: 5.625rem;
+}
+
+.title_img_wrap {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.title_img {
+	width: 100%;
+	height: 100%;
+	fill: var(--light-grey);
+}

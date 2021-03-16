@@ -1,0 +1,16 @@
+.page_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	line-height: 0;
+	margin: 20px 50px;
+}
+
+.logo {
+	fill: var(--dark-grey);
+}
+
+.logo:hover {
+	fill: var(--orange);
+}

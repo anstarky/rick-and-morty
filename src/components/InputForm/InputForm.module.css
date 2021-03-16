@@ -1,0 +1,23 @@
+.form {
+	width: 900px;
+	/* margin: 0 auto; */
+
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.input {
+	background: var(--light-grey);
+	flex: 9 1 0%;
+	padding: 10px;
+	margin-right: 50px;
+	border-radius: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.button_save {
+	background-color: var(--orange) !important;
+	flex: 1 1 0%;
+}

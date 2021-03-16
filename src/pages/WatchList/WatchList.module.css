@@ -1,0 +1,52 @@
+.section_wrap {
+	padding: 4.5rem 0px;
+	background: rgb(36, 40, 47) none repeat scroll 0% 0%;
+	min-height: calc(-60px + 50vh);
+}
+
+.section_title {
+	text-align: center;
+	font-size: 3rem;
+	color: var(--light-grey);
+}
+
+.output_wrap {
+	background: var(--light-grey);
+	border-radius: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	width: 805px;
+	margin: 50px auto;
+	padding: 50px;
+}
+
+.output_list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.list_checkbox {
+	margin-right: 20px;
+}
+
+.list_text {
+	font-size: 18px;
+}
+
+.list_text_checked {
+	font-size: 18px;
+	text-decoration: line-through;
+	color: var(--middle-grey);
+}
+
+.button_delete {
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.form_wrap {
+	display: flex;
+	justify-content: center;
+}
